@@ -3,6 +3,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 1;
 }
 
 body {
@@ -79,6 +83,8 @@ button {
 .about__sun—image {
   width: 100px;
   height: 100px;
+  animation: rotation 3s linear infinite;
+  position: absolute;
 }
 
 .about__info {
@@ -202,4 +208,65 @@ footer {
 
 .footer__links {
   margin-bottom: 15px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(100deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    padding-right: 46px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header__logo {
+    height: 45px;
+  }
+  header {
+    padding: 60px;
+  }
+  .header__logo {
+    height: 48px;
+  }
+  .header__controls button {
+    font-size: 35px;
+  }
+
+  header a {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .about__image {
+    width: 365px;
+  }
+  .about__sun—image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 440px) {
+  header {
+    padding: 60px;
+  }
+  .header__logo {
+    height: 48px;
+  }
+  .header__controls button {
+    font-size: 35px;
+  }
+
+  header a {
+    font-size: 35px;
+  }
 }
