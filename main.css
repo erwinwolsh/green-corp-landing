@@ -27,7 +27,7 @@ a {
 header a {
   font-size: 15px;
   font-weight: 600;
-  margin-right: 25px;
+  padding-right: 25px;
 }
 
 button {
@@ -219,54 +219,180 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
-  .about {
-    padding-right: 46px;
-  }
+i {
+  padding-left: 5px;
 }
-
-@media (max-width: 720px) {
-  .header__logo {
-    height: 45px;
-  }
+@media (max-width: 320px) {
   header {
-    padding: 60px;
-  }
-  .header__logo {
-    height: 48px;
-  }
-  .header__controls button {
-    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  header a {
-    font-size: 35px;
+  .header__controls {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
-  h1 {
-    font-size: 40px;
-    line-height: 50px;
+  .header__logo {
+    height: 25px;
+    padding-bottom: 15px;
+  }
+
+  button {
+    font-size: 15px;
+    color: #fff;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    padding: 10px;
+  }
+  header a {
+    padding-bottom: 15px;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
   }
   .about__image {
-    width: 365px;
+    width: 280px;
   }
+
+  .about__info h1 {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .about__info p {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+
   .about__sun—image {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .about button {
+    font-size: 15px;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .about__images {
+    padding-top: 30px;
+  }
+
+  .form__container h2,
+  p {
+    text-align: left;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+
+  form {
+    padding: 0 20px;
+  }
+  footer,
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .footer__group {
+    padding: 0;
   }
 }
 
-@media (max-width: 440px) {
-  header {
-    padding: 60px;
-  }
+@media (max-width: 768px) {
   .header__logo {
-    height: 48px;
-  }
-  .header__controls button {
-    font-size: 35px;
+    height: 30px;
   }
 
+  button {
+    font-size: 15px;
+    color: #fff;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    padding: 15px;
+  }
   header a {
-    font-size: 35px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  .about__image {
+    width: 280px;
+  }
+
+  .about__info h1 {
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  .about__info p {
+    margin: 0;
+    padding: 20px 0;
+    text-align: left;
+  }
+
+  .about__sun—image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .about button {
+    font-size: 15px;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .about__images {
+    padding-top: 50px;
+  }
+
+  .form__container h2,
+  p {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+
+  form {
+    padding: 0 20px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .footer__group {
+    padding-left: 30px;
+    padding-top: 40px;
   }
 }
