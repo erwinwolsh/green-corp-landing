@@ -1,0 +1,264 @@
+@media (max-width: 400px) {
+  .header__logo {
+    padding-right: 60px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+  header a {
+    text-align: center;
+    padding-left: 8px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  .about__image {
+    width: 280px;
+  }
+
+  .about__info h1 {
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  .about__info p {
+    margin: 0;
+    padding: 20px 0;
+    text-align: left;
+  }
+
+  .about__sun—image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .about button {
+    font-size: 15px;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .about__images {
+    padding-top: 50px;
+  }
+
+  .form__container h2,
+  p {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+
+  form {
+    padding: 0 20px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .footer__group {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+
+  .features {
+    padding: 50px 10px;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .card__logo {
+    margin: 0;
+  }
+
+  .card p,
+  .features__feedback-left p,
+  .features__box p {
+    text-align: start;
+    padding: 0;
+  }
+
+  .features__feedback {
+    flex-direction: column;
+  }
+
+  .features__feedback-left {
+    margin-right: 0;
+  }
+
+  .features__feedback-left h2,
+  .features__box h3 {
+    font-size: 36px;
+    text-align: start;
+  }
+
+  .features__feedback-right {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .features__savings-box {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    height: 30px;
+  }
+
+  button {
+    font-size: 15px;
+    color: #fff;
+    background-color: #23a030;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    padding: 15px;
+  }
+  header a {
+    padding-bottom: 15px;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  .about__image {
+    width: 280px;
+  }
+
+  .about__info h1 {
+    font-size: 45px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  .about__info p {
+    margin: 0;
+    padding: 20px 0;
+    text-align: left;
+  }
+
+  .about__sun—image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .about button {
+    font-size: 15px;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .about__images {
+    padding-top: 50px;
+  }
+
+  .form__container h2,
+  p {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 0;
+  }
+
+  form {
+    padding: 0 20px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .footer__group {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+
+  .features {
+    padding: 50px 10px;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+  }
+
+  .features__feedback {
+    flex-direction: column;
+  }
+
+  .features__feedback-left {
+    margin-right: 0;
+  }
+
+  .features__feedback-left h2,
+  .features__box h3 {
+    font-size: 36px;
+    text-align: start;
+  }
+
+  .features__feedback-right {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .features__savings-box {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .card p,
+  .features__feedback-left p,
+  .features__box p {
+    text-align: start;
+    padding: 0;
+  }
+
+  .promo {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .promo__right {
+    margin: 0;
+  }
+  .promo__text p {
+    font-size: 10px;
+    line-height: 20px;
+    text-align: start;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .promo__image {
+    width: 457px;
+    height: 500px;
+  }
+}
